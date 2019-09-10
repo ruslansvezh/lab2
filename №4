@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	double x1, x2, y1, y2, a, b;
-	cout << "Enter the coordinates of first top: 1" << endl;
+	cout << "Enter the coordinates of first top: " << endl;
 	cin >> x1 >> y1;
 	cout << "Enter the coordinates of second top: " << endl;
 	cin >> x2 >> y2;
