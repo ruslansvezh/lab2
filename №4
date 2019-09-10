@@ -1,0 +1,17 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	double x1, x2, y1, y2, a, b;
+	cout << "Enter the coordinates of first top: 1" << endl;
+	cin >> x1 >> y1;
+	cout << "Enter the coordinates of second top: " << endl;
+	cin >> x2 >> y2;
+	a = abs(x2 - x1);
+	b = abs(y2 - y1);
+	cout << "P= " << (a + b) * 2 << endl;
+	cout << "S= " << a * b;
+	return 0;
+
+}
