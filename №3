@@ -1,0 +1,13 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	double A, B, C;
+	cout << "enter the coordinates of points A,B and C: " << endl;
+	cin >> A >> B >> C;
+	cout << "AC= " << abs(C) - abs(A) << endl;
+	cout << "BC= " << abs(B) - abs(C) << endl;
+	cout << "AC*BC= " << (abs(C) - abs(A))* (abs(B) - abs(C));
+	return 0;
+}
